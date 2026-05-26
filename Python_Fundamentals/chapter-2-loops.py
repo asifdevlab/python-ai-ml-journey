@@ -12,10 +12,9 @@
 # WARNING:
 # Infinite loops continue forever until stopped manually.
 
-"""
+
 while True:
     print("Hello World")
-"""
 
 
 # --------------------------------------------
@@ -72,3 +71,52 @@ i = 1
 while i <= 10:
     print(num, "x", i, "=", num * i)
     i += 1
+
+#-------------------
+#Break and Continue
+#-------------------
+
+i = 1
+
+while (i <= 10):
+    if (i % 6 == 0):
+        break
+    print(i)
+    i += 1
+
+print("Outside loop now....")
+
+#Use of continue
+
+i = 1
+
+while (i <= 10):
+    if (i % 3 == 0):
+        i += 1
+        continue
+    print(i)
+    i += 1
+
+print("Outside loop...")
+
+# Print all the odd numbers from 1-10
+i = 1
+
+while (i <= 10):
+    print(i)
+    i += 2
+
+#Using continue
+i = 0
+
+while (i < 10):
+    i += 1
+    if (i % 2 == 0):
+        continue
+    print(i)
+
+#For Loop
+
+    
+
+
