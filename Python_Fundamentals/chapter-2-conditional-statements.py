@@ -116,7 +116,7 @@ else:
 
 
 # --------------------------------------------
-# MATCH CASE STATEMENT
+# MATCH CASE STATEMENTS
 # --------------------------------------------
 
 color = input("\nEnter traffic light color: ")

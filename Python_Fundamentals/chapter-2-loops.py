@@ -12,7 +12,6 @@
 # WARNING:
 # Infinite loops continue forever until stopped manually.
 
-
 while True:
     print("Hello World")
 
@@ -116,6 +115,106 @@ while (i < 10):
     print(i)
 
 #For Loop
+for i in range(5):
+    print(i)
+#output: 0,1,2,3,4"""
+
+
+#Membership Operator
+
+'''word = "Prime"
+
+# Example 1 - Looping over a string
+for ch in word:
+    print(ch)
+
+# Example 2 - Check if char 'i' exists in word
+if 'i' in word:
+    print("letter exists")
+
+# Example 3 - Count number of 'i' in the word
+word = "artificial intelligence"
+count = 0
+
+for ch in word:
+    if ch == 'i':
+        count += 1
+
+print(f"i occurs {count} times.")
+
+# Nested Loops
+for i in range(1, 3):
+    for j in range(1, 3):
+        print(f"({i}, {j})")
+
+# Range Function
+
+# Single Argument - start
+for i in range(5):
+    print(i)
+
+# Output: 0, 1, 2, 3, 4
+
+# 2 arguments - start, stop
+for i in range(1,6):
+    print(i)
+
+# output: 1, 2, 3, 4, 5
+
+# 3 arguments - start, stop, step
+for i in range(1,10,2):
+    print(i)
+
+#output: 1, 3, 5, 7, 9
+
+# Practice Problem (set 2)
+#1. Print multiplication table for any number n. [using while]
+
+n = int(input("Enter a number: "))
+i = 1
+
+while i <= 10:
+    print(f"{n} x {i} = {n * i}")
+    i += 1
+
+# Print odd numbers from 1 to 10, using continue. [using while].
+
+i = 1
+
+while i <= 10:
+    if i % 2 == 0:
+        i += 1
+        continue
+    print(i)
+    i += 1
+# 3. Count vowels in a word. [using for]
+
+word = str(input("Enter a word: "))
+count = 0
+for ch in word:
+    if (ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == "u"):
+        count += 1
+
+print(f"Number of vowels in given word is {count}")
+
+# 4. Sum of first n natural numbers. [using for]
+
+n = int(input("Enter a number: "))
+sum = 0
+
+for i in range(1,n+1):
+    sum += i
+
+print("Sum =", sum)
+
+
+
+    
+
+
+
+
+
 
     
 
