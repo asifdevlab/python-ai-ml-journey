@@ -122,7 +122,7 @@ for i in range(5):
 
 #Membership Operator
 
-'''word = "Prime"
+word = "Prime"
 
 # Example 1 - Looping over a string
 for ch in word:
