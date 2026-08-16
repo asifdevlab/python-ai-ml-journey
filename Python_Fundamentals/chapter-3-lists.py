@@ -5,7 +5,7 @@
 # ============================================
 
 # Creation of list
-'''my_list = [1, 2, 3, 4, 5]
+my_list = [1, 2, 3, 4, 5]
 print(my_list)
 print(type(my_list)) # <class 'list'>
 
@@ -67,7 +67,7 @@ print(nums)
 numbers = [10, 20, 30, 40, 50]
 
 for num in numbers:
-    print(num)'''
+    print(num)
 
 # Linear Search
 numbers = [5,12, 7, 3, 18, 9]
